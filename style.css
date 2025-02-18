@@ -1,0 +1,41 @@
+.mahin{
+    font-size: 70px;
+    color: blue;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}
+.ahnaf{
+    font-size: 40px;
+    color: aquamarine;
+    background-color: blueviolet;
+}
+.about{
+    font-size: 200px;
+    color: aqua ;
+    text-align:center;
+.apurbo{
+    font-size:40px ;
+color: antiquewhite;
+     background-color: black;
+}
+img{
+    height: 400px;
+    with: 700px;
+    object-fit: cover;
+    border-radius:100px;    
+    border: 22px solid green;
+    margin:0 auto;
+    display: block;
+    
+}
+#n{font-size: 30px;
+
+}
+.r{ 
+    margin: 100px 56px 67px 67px;
+    background-color: aqua;
+    padding: 100px;
+
+}
+
