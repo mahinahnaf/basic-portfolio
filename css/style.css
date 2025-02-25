@@ -1,44 +1,121 @@
-.mahin{
-    font-size: 70px;
-    color: blue;
-    text-transform: capitalize;
-    text-decoration: underline;
-    text-align: center;
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #3b506c;
+    font-size: 18px;
 }
-.ahnaf{
-    font-size: 40px;
-    color: aquamarine;
-    background-color: blueviolet;
-}
-.apurbo{
-    font-size:40px ;
-color: antiquewhite;
-     background-color: black;
+
+header{
+    padding: 30px 50px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    
 }
 img{
-    height: 400px;
-    with: 700px;
-    object-fit: cover;
-    border-radius:100px;    
-    border: 22px solid green;
-    margin:0000;
+    display: block;
+    max-width: 100%;
+}
+nav{ display:flex;
+    justify-content:space-between;
+    align-items:center ;
 
 }
-.about{
-    font-size: 40px;
-    color: aqua ;
-    text-align:center;
+nav img{
+
 }
-.m{
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+
+}
+nav ul li{
+    margin: 0 0 0 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    color:black;
+    text-transform: capitalize;
+        
+}
+.banner{text-align: center;
+
+}
+.banner h1{    font-size: 60px;
+text-transform: capitalize;
+color: #3b506c;
+
+}
+.banner h1 span{
+    color: #0c66ff;
+
+}
+.banner p{
+
+}
+.banner img{
+    width: 50%;
+    margin: auto;
+    
+
+}
+.pa{ display: flex;
+
+}
+.i{
+width: 50%;
+padding:   0 10px 0 25px;
+}
+.s{
+    text-align: right;
+}
+
+.i h1{
+font-size: 50px;
+color: #3b506c;
+
+}
+.s h1{
+    color: red;
+}
+.i p{
+color: #3b506c;
+}
+.ser-section{
+    margin: 70px 30px;
+}
+.ser{
+    display: flex;
+     gap: 25px;
+
+}
+.ser-i{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+padding: 20px;
+border-radius: 8px;
+
+}
+.ser-i img{
+    height: 250px;
+
+}
+.ser-i h4{
+font-size: 25px;
+margin: 10px 0;
+}
+.ser-i p{
+
+}
+footer{
+    background-color:#3b506c;
+    color: white;
+    padding: 50px;
     text-align: center;
 }
-#n{font-size: 30px;
-
+footer h3{
+    font-size: 25px;
 }
-.r{ 
-    margin: 100px 56px 67px 67px;
-    background-color: aqua;
-    padding: 100px;
-
-}
-
